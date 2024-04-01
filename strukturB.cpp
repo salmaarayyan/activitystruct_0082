@@ -6,7 +6,7 @@ struct Mahasiswa {
     string nama;
     string alamat;
     string umur;
-}
+};
 
 int main () {
     Mahasiswa mhs;
@@ -21,4 +21,8 @@ int main () {
 
     cout << endl;
     cout << "\n Nim : " << mhs.nim;
+    cout << "\n Nama : " << mhs.nama;
+    cout << "\n Alamat : " << mhs.alamat;
+    
+
 }
